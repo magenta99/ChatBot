@@ -21,7 +21,7 @@ const Image = mongoose.model('Image');
 //     {question:"https://firebasestorage.googleapis.com/v0/b/fir-test-b3876.appspot.com/o/ets2016_1_108.png?alt=media&token=f81d915e-1a76-4ca4-97cc-c9e7792f7221",key:"D",explain:"Key: D. GT:Điện tử Ulrich sẽ cài đặt miễn phí cho bất kỳ hệ thống giải trí nào mua trước ngày 30/6"},
 //     {question:"https://firebasestorage.googleapis.com/v0/b/fir-test-b3876.appspot.com/o/ets2016_1_110.png?alt=media&token=bec7b4f6-1665-4a69-b0d6-de3e967f76e0",key:"A",explain:"Key: A. GT: Often đi với thì HTĐ; Once và Previously đi với quá khứ: once có thể đi với thì hiện tại hoàn thành  chọn A"},
 // ])
-
+    
     Image.create([
         {image:"https://images.pexels.com/photos/1531683/pexels-photo-1531683.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500."},
         {image:"https://images.pexels.com/photos/2826351/pexels-photo-2826351.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"},

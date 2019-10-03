@@ -9,7 +9,9 @@ const Question = mongoose.model('Question');
 const Image = mongoose.model('Image');
 
 router.get('/resultImage', (req, res) => {
-  res.send("huy")
+  Image.find().exec((err,docs)=>{
+    res.send(docs)
+  })
 })
 
 
